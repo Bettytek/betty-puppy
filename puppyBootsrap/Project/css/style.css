@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1, h2,p{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.blueBG{
+    background-color: blueviolet;
+}
+@media(min-width:768px){
+    .missing{
+        background-color: tomato;
+    }
+    .missing p{
+        font-size: 35px;
+        padding-top: 35px;
+    }
+    .more{
+        font-size: 40px;
+    }
+}
+
+
